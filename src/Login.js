@@ -33,7 +33,7 @@ function Login() {
       <Link to="/">
         <img
           className="login__logo"
-          src="https://pkart.in/wp-content/uploads/2021/07/FINAL-1-1.png"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvso3NRkN7a0TLDPJFB5oqxron80O_8xKpg&usqp=CAU"
         />
       </Link>
       <div className="login__container">

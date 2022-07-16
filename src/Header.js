@@ -20,7 +20,8 @@ function Header() {
       <Link to="/">
         <img
           className="header__logo"
-          src="https://pkart.in/wp-content/uploads/2021/07/FINAL-1-1.png"
+          src="https://img.freepik.com/free-vector/shopping-cart-icon-shopping-basket-design-vector-illustration_460848-5388.jpg"
+          // src="https://pkart.in/wp-content/uploads/2021/07/FINAL-1-1.png"
           width="100"
           height="200"
         />
@@ -28,7 +29,7 @@ function Header() {
 
       <div className="header__search">
         <input className="header__searchInput" type="text" />
-        <SearchIcon className="header__searchIcon" />
+        <Link to="/"><SearchIcon className="header__searchIcon" /></Link>
       </div>
       <div className="header__nav">
         <Link to={!user && "/login"}>
