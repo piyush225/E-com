@@ -29,13 +29,15 @@ function Checkout() {
             rating={item.rating}
             />
           ))}
+          <div className="checkout__right">
+    <Subtotal />
+  </div>
+        </div>
+        
         </div>
       </div>
-
-      <div className="checkout__right">
-        <Subtotal />
-      </div>
-    </div>
+      
+    
   );
 }
 
